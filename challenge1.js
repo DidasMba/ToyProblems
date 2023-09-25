@@ -1,11 +1,11 @@
 function StudentGrade(input) {
     
-        // THis code , Check if the input is a valid number within the specified range
+
         if (isNaN(input) || input < 0 || input > 100) {
-            //alert("Invalid input. Please enter a number between 0 and 100.");
+           
             console.log("Invalid input. Please enter a number between 0 and 100.")
         } else {
-            // Determine the grade based on the input
+        
             let grade;
             if (input > 79) {
                 grade = "A";
@@ -19,10 +19,9 @@ function StudentGrade(input) {
                 grade = "E";
             }
     
-            // Show the result
+    
             console.log(`Student Grade: ${grade}`);
         }
     }
     
-    // Call the function to start the grading process
     StudentGrade(78);
